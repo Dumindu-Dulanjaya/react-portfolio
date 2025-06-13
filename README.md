@@ -1,35 +1,12 @@
-# 🌐 React Portfolio
+# React + Vite
 
-Welcome to my personal portfolio website built with **React**!  
-This site showcases my projects, skills, experience, and ways to connect with me.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 🚀 Features
+Currently, two official plugins are available:
 
-- 💼 About Me section
-- 🛠️ Skills and Technologies
-- 📂 Projects Showcase
-- 📬 Contact Form
-- 📱 Fully Responsive Design
-- ⚡ Fast and Optimized
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## 🖥️ Demo
+## Expanding the ESLint configuration
 
-[Live Demo](https://yourusername.github.io/react-portfolio) — Hosted with GitHub Pages
-
-## 🛠️ Built With
-
-- [React](https://reactjs.org/)
-- [React Router](https://reactrouter.com/) (optional)
-- [Tailwind CSS](https://tailwindcss.com/) or [CSS Modules/SASS]
-- [EmailJS](https://www.emailjs.com/) (for contact form, optional)
-- [Vite](https://vitejs.dev/) or [Create React App]
-
-## 📦 Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/yourusername/react-portfolio.git
-cd react-portfolio
-npm install
-# react-portfolio
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
